@@ -1,0 +1,71 @@
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.question {
+  width: 700px; /* Default width for larger screens */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(252, 228, 196);
+  height: 70px;
+  border-radius: 10px;
+  border: solid #c52338;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.prev, .next {
+  border: 0;
+  background-color: white;
+  color: #c52338;
+}
+
+.option {
+  display: inline-block;
+  margin-right: 10px; /* Adjust as needed */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.option input[type="radio"] {
+  display: inline-block;
+  margin-right: 5px; /* Adjust as needed */
+}
+
+.option label {
+  display: inline-block;
+}
+
+/* Responsive adjustments for tablets */
+@media (max-width: 768px) {
+  .question {
+    width: 90%; /* Adjust width to be more flexible */
+    font-size: 14px; /* Reduce font size */
+  }
+  .option {
+    margin-right: 5px; /* Reduce margin for options */
+  }
+  .option input[type="radio"], .option label {
+    margin-right: 2px; /* Reduce spacing */
+  }
+}
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 480px) {
+  .question {
+    width: 100%; /* Use full width of the screen */
+    height: auto; /* Make height auto for better fit */
+    padding: 10px; /* Add padding for better readability */
+    font-size: 12px; /* Further reduce font size */
+  }
+  .option {
+    margin-right: 2px; /* Tighter margins for options */
+    font-size: 12px; /* Reduce font size for options */
+  }
+  .prev, .next {
+    font-size: 14px; /* Adjust button size */
+  }
+}

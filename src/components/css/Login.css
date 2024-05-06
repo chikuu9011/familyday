@@ -1,0 +1,55 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 100%; /* use max-width for better responsiveness */
+    max-width: 500px; /* original fixed width now as max-width */
+    padding: 20px; /* added padding for internal spacing */
+}
+
+input {
+    color: #c52338 !important;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: "pfhandbookpro-bold", sans-serif; /* fallback font */
+    text-transform: capitalize;
+    margin: 20px 0;
+    background-color: rgb(252, 228, 196) !important;
+    height: 50px;
+    width: 100%; /* responsive width */
+    padding: 0 10px; /* padding inside input for text */
+    box-sizing: border-box; /* includes padding in width */
+    border: 1px solid #c52338; /* added subtle border for better focus visibility */
+}
+
+input::placeholder {
+    color: #c52338 !important;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: "pfhandbookpro-bold", sans-serif; /* consistent placeholder styling */
+}
+
+.sb {
+    padding: 5px 15px;
+    background-color: #c52338;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border: 0;
+    cursor: pointer; /* indicates it's clickable */
+    box-sizing: border-box;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .form {
+        padding: 10px; /* smaller padding on smaller screens */
+    }
+    input, .sb {
+        font-size: 1.2rem; /* smaller font size for smaller screens */
+    }
+}

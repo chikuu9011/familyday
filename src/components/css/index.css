@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "sunshine";
+  src: local('sunshine'),
+       url('../../assets/fonts/A little sunshine.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "agencyr";
+  src: url('../../assets/fonts/AGENCYR.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: "aintnothingfancy";
+  src: url('../../assets/fonts/AintNothingFancy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "arial";
+  src: url('../../assets/fonts/arial.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "arialbd";
+  src: url('../../assets/fonts/arialbd.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "opensans-bold";
+  src: url('../../assets/fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "opensans-regular";
+  src: url('../../assets/fonts/OPENSANS-REGULAR.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: "pfencoresanspro-book";
+  src: url('../../assets/fonts/PFEncoreSansPro-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "pfhandbookpro-bold";
+  src: url('../../assets/fonts/PFHandbookPro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "pfhandbookpro-regular";
+  src: url('../../assets/fonts/PFHandbookPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "roboto-regular";
+  src: url('../../assets/fonts/Roboto-Regular.ttf') format('truetype');
+}

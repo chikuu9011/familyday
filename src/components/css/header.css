@@ -1,0 +1,73 @@
+.logo {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.img {
+    height: 90px;
+    width: 250px;
+}
+
+.uimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogun {
+    text-align: center;
+}
+
+h2 {
+    font-family: "aintnothingfancy";
+    font-size: 30px;
+    color: rgb(197, 35, 56);
+}
+
+.df {
+    font-family: "pfhandbookpro-bold";
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.df1 {
+    font-family: "Arial", sans-serif; /* Ensuring fallbacks */
+    font-weight: 900;
+    font-size: 96px; /* Consider making this responsive */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .img {
+        height: 70px; /* Smaller logo for smaller screens */
+        width: 190px;
+    }
+    .df, h2 {
+        font-size: 2.5rem; /* Adjust font size for readability on smaller screens */
+    }
+    .df1 {
+        font-size: 72px; /* Smaller font size for compact layout */
+    }
+}
+
+@media (max-width: 480px) {
+    .img {
+        height: 50px;
+        width: 140px;
+    }
+    .df, h2 {
+        font-size: 1.8rem;
+    }
+    .df1 {
+        font-size: 48px; /* Even smaller for mobile devices */
+    }
+}

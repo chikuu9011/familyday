@@ -1,0 +1,67 @@
+.ft {
+    font-family: "pfhandbookpro-bold";
+    color: #c52338;
+    font-size: 2rem;
+}
+.df1 {
+    color: #c52338;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ft1 {
+    font-family: "Arial";  /* Corrected spelling of 'Arial' */
+    font-weight: 700;
+}
+.finalb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fb {
+    padding: 0 10px;
+    background-color: #c52338;
+    color: white;
+    font-size: 2rem;
+    border: 0;
+    border-radius: 5px;
+    font-family: "pfhandbookpro-regular";
+}
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "pfhandbookpro-bold";
+    font-size: 2rem;
+    color: #c52338;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .ft, .fb, .score {
+        font-size: 1.5rem; /* Smaller font size for smaller screens */
+    }
+    .fb {
+        padding: 5px 20px; /* Adjust padding to maintain usability */
+    }
+    .text {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        padding: 10px; /* Add padding for better spacing */
+    }
+}
+
+@media (max-width: 480px) {
+    .ft, .fb, .score {
+        font-size: 1.2rem; /* Even smaller font size for mobile devices */
+    }
+    .fb {
+        padding: 5px 15px; /* Adjust padding for smaller screens */
+    }
+    .finalb, .text {
+        flex-direction: column; /* Ensure vertical stacking for compact layout */
+    }
+}
